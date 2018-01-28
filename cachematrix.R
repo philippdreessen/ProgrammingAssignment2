@@ -50,5 +50,5 @@ cacheSolve <- function(initial_matrix, ...) {
         initial_matrix$setsolve_ex(calculated_inverse)
         message("Calculating New Inverse")
         print(calculated_inverse)
-        calculated_inverse  #not is is being accessible outside of cacheSolve. 
+        calculated_inverse  #now it's accessible outside of cacheSolve. 
 }
